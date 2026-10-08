@@ -1,0 +1,3 @@
+[submodule "dotfiles"]
+	path = dotfiles
+	url = https://iconint@github.com/CBenoit/dotfiles
