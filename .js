@@ -1,1 +1,0 @@
-#https://wallet.apple.com/setup/manualEntry/?cid=ppy-200-10000351
