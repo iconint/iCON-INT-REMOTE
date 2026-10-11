@@ -1,4 +1,4 @@
-[blaxel$: "dotfiles"]
+			>blaxel$: "dotfiles"]
 	path = dotfiles
 	url = https://iconint@github.com/CBenoit/dotfiles
 [submodule "iCON-INT-REMOTE"]
