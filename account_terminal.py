@@ -9,9 +9,9 @@ Run directly with:
 
 
 class Account:
-    """A simple bank-style account with a balance and basic info fields."""
+    """A bank-style account with a balance and basic info fields."""
 
-    def __init__(self, name="", email="", balance=0.0):
+    def __init__(self, name="iCON INT", email="iconint@icloud.com", balance=110.0):
         self.name = name
         self.email = email
         self.balance = float(balance)
