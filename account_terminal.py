@@ -88,8 +88,25 @@ Available commands:
   reject                  Discard the pending balance change
   update <field> <value>  Update account info (name or email)
   info                    Show full account information
+  assist                  Show offline troubleshooting tips for this terminal
   help                    Show this help message
   quit                    Exit the terminal
+"""
+
+ASSIST_TEXT = """\
+Offline troubleshooting tips (no network access or command execution
+is performed by this assistant):
+  - "Insufficient balance": you tried to withdraw more than the
+    current balance. Check 'balance' first.
+  - "No pending change to approve/reject": use 'deposit' or 'withdraw'
+    to queue a change before calling 'approve' or 'reject'.
+  - "A change is already pending approval": resolve the existing
+    pending change with 'approve' or 'reject' before requesting a new
+    one.
+  - "Unknown account field": 'update' only accepts 'name' or 'email'.
+  - "Unknown command": run 'help' to see the exact command list.
+This command only prints static guidance; it never approves,
+rejects, or modifies the account on its own.
 """
 
 
@@ -141,6 +158,8 @@ def run(account=None, input_func=input, output_func=print):
                 output_func(f"Updated {field}: {new_value}")
             elif command == "info":
                 output_func(account.info())
+            elif command == "assist" or command == "ai":
+                output_func(ASSIST_TEXT)
             else:
                 output_func(f"Unknown command: {command}. Type 'help' for commands.")
         except (IndexError, ValueError) as exc:
