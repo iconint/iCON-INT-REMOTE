@@ -15,6 +15,7 @@ class Account:
         self.name = name
         self.email = email
         self.balance = float(balance)
+        self.pending = None
 
     def deposit(self, amount):
         amount = float(amount)
@@ -32,6 +33,37 @@ class Account:
         self.balance -= amount
         return self.balance
 
+    def request_change(self, kind, amount):
+        """Queue a balance change (deposit/withdraw) pending approval."""
+        if kind not in ("deposit", "withdraw"):
+            raise ValueError(f"Unknown balance change: {kind}")
+        amount = float(amount)
+        if amount <= 0:
+            raise ValueError("Amount must be positive")
+        if kind == "withdraw" and amount > self.balance:
+            raise ValueError("Insufficient balance")
+        if self.pending is not None:
+            raise ValueError("A change is already pending approval")
+        self.pending = {"kind": kind, "amount": amount}
+        return self.pending
+
+    def approve(self):
+        """Apply the pending balance change."""
+        if self.pending is None:
+            raise ValueError("No pending change to approve")
+        kind, amount = self.pending["kind"], self.pending["amount"]
+        self.pending = None
+        if kind == "deposit":
+            return self.deposit(amount)
+        return self.withdraw(amount)
+
+    def reject(self):
+        """Discard the pending balance change."""
+        if self.pending is None:
+            raise ValueError("No pending change to reject")
+        self.pending = None
+        return self.balance
+
     def update_info(self, field, value):
         if field not in ("name", "email"):
             raise ValueError(f"Unknown account field: {field}")
@@ -39,14 +71,21 @@ class Account:
         return getattr(self, field)
 
     def info(self):
-        return {"name": self.name, "email": self.email, "balance": self.balance}
+        return {
+            "name": self.name,
+            "email": self.email,
+            "balance": self.balance,
+            "pending": self.pending,
+        }
 
 
 HELP_TEXT = """\
 Available commands:
   balance                 Show current balance
-  deposit <amount>        Add funds to the account
-  withdraw <amount>       Remove funds from the account
+  deposit <amount>        Request a deposit (requires approval)
+  withdraw <amount>       Request a withdrawal (requires approval)
+  approve                 Approve and apply the pending balance change
+  reject                  Discard the pending balance change
   update <field> <value>  Update account info (name or email)
   info                    Show full account information
   help                    Show this help message
@@ -85,11 +124,17 @@ def run(account=None, input_func=input, output_func=print):
             elif command == "balance":
                 output_func(f"Balance: {account.balance}")
             elif command == "deposit":
-                new_balance = account.deposit(parts[1])
-                output_func(f"Deposited. New balance: {new_balance}")
+                pending = account.request_change("deposit", parts[1])
+                output_func(f"Pending deposit of {pending['amount']}. Type 'approve' or 'reject'.")
             elif command == "withdraw":
-                new_balance = account.withdraw(parts[1])
-                output_func(f"Withdrew. New balance: {new_balance}")
+                pending = account.request_change("withdraw", parts[1])
+                output_func(f"Pending withdrawal of {pending['amount']}. Type 'approve' or 'reject'.")
+            elif command == "approve":
+                new_balance = account.approve()
+                output_func(f"Approved. New balance: {new_balance}")
+            elif command == "reject":
+                account.reject()
+                output_func("Pending change rejected.")
             elif command == "update":
                 field, value = parts[1], " ".join(parts[2:])
                 new_value = account.update_info(field, value)
