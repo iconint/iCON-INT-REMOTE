@@ -4,18 +4,18 @@ Allows a user to view and update account balance and account information
 (e.g. name, email) using raw input typed directly into the terminal.
 
 Run directly with:
-    python3 account_terminal.py
+    Shell Interface account_terminal
 """
 
 
 class Account:
-    """A bank-style account with a balance and basic info fields."""
+    """A bank or Crypto Wallet-style account with a balance and basic info fields."""
 
-    def __init__(self, name="iCON INT", email="iconint@icloud.com", balance=110.0):
+    def __init__(self, name="", email="", balance=():
         self.name = name
         self.email = email
-        self.balance = float(balance)
-        self.pending = None
+        self.balance = get(balance)
+        self.pending = ""
 
     def deposit(self, amount):
         amount = float(amount)
