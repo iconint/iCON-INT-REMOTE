@@ -1,0 +1,160 @@
+2026-10-11T17:13:34Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-11T17:13:34Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807 includeRestaurantOffers=true
+2026-10-11T17:13:38Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=0 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:13:38Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=ready authState=unknown
+2026-10-11T17:13:38Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica navigation=secure.bankofamerica.com/auth/signon
+2026-10-11T17:13:38Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=0 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:13:38Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=reportLoginState completed=true
+2026-10-11T17:13:38Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=2 visiblePasswordMatches=0 passwordMatches=1 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:13:40Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=loginRequired visibleUsernameMatches=1 usernameMatches=2 visiblePasswordMatches=1 passwordMatches=1 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:13:43Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-11T17:13:43Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=configureOptions completed=true
+2026-10-11T17:13:43Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=status
+2026-10-11T17:13:50Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=cardsUnavailable authState=loginRequired reason=cardLoadException
+2026-10-11T17:13:50Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=loadCards completed=true
+2026-10-11T17:13:59Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:14:01Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=5 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:14:01Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=ready authState=unknown
+2026-10-11T17:14:01Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=5 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:14:04Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica navigation=secure.bankofamerica.com/auth/enroll/enroll-entry
+2026-10-11T17:14:04Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=6 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:14:04Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=reportLoginState completed=true
+2026-10-11T17:14:05Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=loginRequired visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=1 passwordMatches=6 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:14:27Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=twoFactorRequired visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=6 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=1
+2026-10-11T17:14:27Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica loginVerification=waiting sheetExpanded=true
+2026-10-11T17:14:29Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:14:29Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:14:29Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:14:42Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:14:42Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:14:42Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:14:50Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualclick
+2026-10-11T17:14:50Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualclick
+2026-10-11T17:14:50Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:16:06Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:06Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:06Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:16:22Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:22Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:22Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:16:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:16:26Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:26Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:26Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:16:28Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:28Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:28Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:16:30Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:30Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=manualpointerdown
+2026-10-11T17:16:30Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginSubmitted authState=loginRequired
+2026-10-11T17:17:20Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-11T17:17:20Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=configureOptions completed=true
+2026-10-11T17:17:20Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=status
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=credentialsCaptureSkipped reason=verification source=pagehide
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=0 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=ready authState=unknown
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica navigation=secure.bankofamerica.com/auth/signon
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=2 visiblePasswordMatches=0 passwordMatches=1 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=reportLoginState completed=true
+2026-10-11T17:17:24Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=2 visiblePasswordMatches=0 passwordMatches=1 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:17:27Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=loginState authState=loginRequired visibleUsernameMatches=1 usernameMatches=2 visiblePasswordMatches=1 passwordMatches=1 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-11T17:18:36Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-11T17:18:36Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=configureOptions completed=true
+2026-10-11T17:18:36Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=status
+2026-10-11T17:18:44Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica event=cardsUnavailable authState=loginRequired reason=cardLoadException
+2026-10-11T17:18:44Z account=0BB83370-8FA8-4C05-8FC9-2B728DD5FCAE bank=bankOfAmerica javaScriptCommand=loadCards completed=true
+2026-10-13T08:10:55Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-13T08:10:55Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A bank=americanExpress action=session_started mode=manual automaticallyAdds=false offerLimit=9223372036854775807
+2026-10-13T08:10:56Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:10:56Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:45:58Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:45:58Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:45:59Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:45:59Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:07Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=load_offers
+2026-10-13T08:46:07Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A bank=americanExpress action=session_started mode=manual automaticallyAdds=false offerLimit=9223372036854775807
+2026-10-13T08:46:07Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:07Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:10Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:10Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:11Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=javaScriptCallFailed savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:11Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=javaScriptCallFailed details={"errorCode":4,"errorDomain":"WKErrorDomain","function":"loadCards"}
+2026-10-13T08:46:14Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:14Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:14Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:14Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:15Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:15Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:15Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:15Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:16Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:16Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:16Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:16Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:17Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:17Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:17Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:17Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:46:18Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:46:18Z account=42100934-E1FC-4BF5-AAAC-DDF1261B141A amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:51:32Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:51:32Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC bank=americanExpress action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807
+2026-10-13T08:51:32Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:51:32Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:51:37Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC amexEvent=javaScriptCallFailed savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:51:37Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC amexDiagnostic=javaScriptCallFailed details={"errorCode":4,"errorDomain":"WKErrorDomain","function":"loadCards"}
+2026-10-13T08:51:38Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:51:38Z account=CF0B1F76-2F81-41DC-A773-2D65423E49DC amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:51:49Z account=E6634D57-C2B1-4AE3-B285-8F63A30AFD6B action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:51:49Z account=E6634D57-C2B1-4AE3-B285-8F63A30AFD6B bank=americanExpress action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807
+2026-10-13T08:51:50Z account=E6634D57-C2B1-4AE3-B285-8F63A30AFD6B amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:51:50Z account=E6634D57-C2B1-4AE3-B285-8F63A30AFD6B amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:51:53Z account=D7875142-66CF-4C05-9D5D-15A23A1D76F8 action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:51:53Z account=D7875142-66CF-4C05-9D5D-15A23A1D76F8 bank=americanExpress action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807
+2026-10-13T08:51:54Z account=D7875142-66CF-4C05-9D5D-15A23A1D76F8 amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:51:54Z account=D7875142-66CF-4C05-9D5D-15A23A1D76F8 amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:52:32Z account=4C8DB42C-D749-4AB6-88F4-A9E7FB401B7D action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:52:32Z account=4C8DB42C-D749-4AB6-88F4-A9E7FB401B7D bank=americanExpress action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807
+2026-10-13T08:52:32Z account=4C8DB42C-D749-4AB6-88F4-A9E7FB401B7D amexEvent=navigationDiagnostic savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T08:52:32Z account=4C8DB42C-D749-4AB6-88F4-A9E7FB401B7D amexDiagnostic=navigationDiagnostic details={"errorCode":-1009,"errorDomain":"NSURLErrorDomain","stage":"provisionalFailed"}
+2026-10-13T08:52:50Z account=134B2F68-3FFC-49A5-9488-4F6093AE4228 action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:52:50Z account=134B2F68-3FFC-49A5-9488-4F6093AE4228 bank=citi action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807 includeRestaurantOffers=true
+2026-10-13T08:52:56Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:52:56Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C bank=citi action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807 includeRestaurantOffers=true
+2026-10-13T08:52:59Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-13T08:52:59Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C bank=citi action=cardLoadDashboardNavigation from=nil
+2026-10-13T08:52:59Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C bank=citi action=cardLoadDashboardFailed errorCode=-1009
+2026-10-13T08:52:59Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C bank=citi event=cardsUnavailable authState=loginComplete reason=dashboardNavigationFailed
+2026-10-13T08:52:59Z account=56E498E4-90F7-4155-99E1-3FF3CF25489C bank=citi cardDiscoveryRetry=0 delay=1.0
+2026-10-13T08:53:10Z account=8D4C2D02-359D-46DD-806D-745CE274F2CC action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T08:53:10Z account=8D4C2D02-359D-46DD-806D-745CE274F2CC bank=citi action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807 includeRestaurantOffers=true
+2026-10-13T09:05:20Z account=0B1FC0E1-5075-44F9-A3AA-8E0B4E18608D action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T09:05:20Z account=0B1FC0E1-5075-44F9-A3AA-8E0B4E18608D bank=bankOfAmerica action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807 includeRestaurantOffers=true
+2026-10-13T09:05:22Z account=0B1FC0E1-5075-44F9-A3AA-8E0B4E18608D action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-13T09:05:23Z account=0B1FC0E1-5075-44F9-A3AA-8E0B4E18608D bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=0 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-13T09:05:23Z account=0B1FC0E1-5075-44F9-A3AA-8E0B4E18608D bank=bankOfAmerica event=ready authState=unknown
+2026-10-13T09:05:24Z account=0B1FC0E1-5075-44F9-A3AA-8E0B4E18608D bank=bankOfAmerica event=loginState authState=unknown visibleUsernameMatches=0 usernameMatches=0 visiblePasswordMatches=0 passwordMatches=0 chaseSignedInEvidence=0 bankOfAmericaSignedInEvidence=0 citiSignedInEvidence=0 loginErrorEvidence=0 loginChallengeEvidence=0
+2026-10-13T09:17:43Z account=C7105D9D-92ED-4C4A-8DAB-39F4409FFBE6 action=run_started appVersion=8.0.6 build=20260925 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T09:17:43Z account=C7105D9D-92ED-4C4A-8DAB-39F4409FFBE6 bank=citi action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807 includeRestaurantOffers=true
+2026-10-13T10:19:37Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 action=run_started appVersion=8.1 build=20261009 bundle=com.getcardpointers.app mode=manual operation=load_offers
+2026-10-13T10:19:37Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress action=session_started mode=manual automaticallyAdds=false offerLimit=9223372036854775807
+2026-10-13T10:19:38Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","stage":"urlChanged","url":"global.americanexpress.com\/login"}
+2026-10-13T10:19:38Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","sourceURL":"about:[omitted]","stage":"requested","url":"global.americanexpress.com\/login"}
+2026-10-13T10:19:38Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","stage":"started","url":"global.americanexpress.com\/login"}
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 amexEvent=javaScriptCallFailed savedCredentials=false autoLoginAttempted=false autoLoginPending=false
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 amexDiagnostic=javaScriptCallFailed details={"errorCode":4,"errorDomain":"WKErrorDomain","function":"loadCards"}
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","stage":"urlChanged","url":"www.americanexpress.com\/account\/login"}
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","sourceURL":"about:[omitted]","stage":"requested","url":"www.americanexpress.com\/account\/login"}
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","stage":"serverRedirect","url":"www.americanexpress.com\/account\/login"}
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"errorCode":-999,"errorDomain":"NSURLErrorDomain","failingURL":"www.americanexpress.com\/account\/login","frame":"main","stage":"provisionalFailed"}
+2026-10-13T10:19:39Z account=A77F2726-016A-421A-A19B-2EA9A47E38E3 bank=americanExpress event=navigation details={"frame":"main","stage":"urlChanged"}
+2026-10-13T10:35:08Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 action=run_started appVersion=8.1 build=20261009 bundle=com.getcardpointers.app mode=creation operation=sync_all_offers
+2026-10-13T10:35:08Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress action=session_started mode=manual automaticallyAdds=true offerLimit=9223372036854775807
+2026-10-13T10:35:08Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress event=navigation details={"frame":"main","stage":"urlChanged","url":"global.americanexpress.com\/login"}
+2026-10-13T10:35:08Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress event=navigation details={"frame":"main","sourceURL":"about:[omitted]","stage":"requested","url":"global.americanexpress.com\/login"}
+2026-10-13T10:35:08Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress event=navigation details={"frame":"main","stage":"started","url":"global.americanexpress.com\/login"}
+2026-10-13T10:35:09Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress event=navigation details={"frame":"main","stage":"urlChanged","url":"www.americanexpress.com\/account\/login"}
+2026-10-13T10:35:09Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress event=navigation details={"frame":"main","sourceURL":"about:[omitted]","stage":"requested","url":"www.americanexpress.com\/account\/login"}
+2026-10-13T10:35:09Z account=E5D17D9E-33D7-41F0-91CB-4713D1F95554 bank=americanExpress event=navigation details={"frame":"main","stage":"serverRedirect","url":"www.americanexpress.com\/account\/login"}
