@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>net.devolutions.remotedesktopmanager.ARDRemapGraveAccentToEscape</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.AlwaysAcceptFingerprint</key>
+	<string>False</string>
+	<key>net.devolutions.remotedesktopmanager.AlwaysSaveMinimalistToolbarLastPosition</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.BackspaceKeyMode</key>
+	<string>ControlQuestionMark</string>
+	<key>net.devolutions.remotedesktopmanager.CurrentLanguage</key>
+	<string>en-US</string>
+	<key>net.devolutions.remotedesktopmanager.DataSource1</key>
+	<string>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&amp;lt;DataSourceExporter&amp;gt;
+  &amp;lt;DataSources&amp;gt;
+    &amp;lt;XmlConnectionDataSource&amp;gt;
+      &amp;lt;ID&amp;gt;9fb581c9-34d4-4142-bc4f-7adbd3ee6ecf&amp;lt;/ID&amp;gt;
+      &amp;lt;TwoFactorInfo&amp;gt;
+        &amp;lt;Id&amp;gt;84974c7f-4a4d-4245-9cd4-660216768577&amp;lt;/Id&amp;gt;
+      &amp;lt;/TwoFactorInfo&amp;gt;
+      &amp;lt;HasPromptedForMasterKey&amp;gt;true&amp;lt;/HasPromptedForMasterKey&amp;gt;
+      &amp;lt;Name&amp;gt;CardPointers&amp;lt;/Name&amp;gt;
+      &amp;lt;PromptForMasterKeyPassword&amp;gt;false&amp;lt;/PromptForMasterKeyPassword&amp;gt;
+      &amp;lt;SafeMasterKeyPassword /&amp;gt;
+      &amp;lt;AutoRefresh&amp;gt;false&amp;lt;/AutoRefresh&amp;gt;
+      &amp;lt;FileName&amp;gt;/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/.app&amp;lt;/FileName&amp;gt;
+      &amp;lt;FullFileName&amp;gt;/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/.app&amp;lt;/FullFileName&amp;gt;
+      &amp;lt;PromptForFile&amp;gt;false&amp;lt;/PromptForFile&amp;gt;
+    &amp;lt;/XmlConnectionDataSource&amp;gt;
+  &amp;lt;/DataSources&amp;gt;
+&amp;lt;/DataSourceExporter&amp;gt;</string>
+	<key>net.devolutions.remotedesktopmanager.DataSource2</key>
+	<string>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&amp;lt;DataSourceExporter&amp;gt;
+  &amp;lt;DataSources&amp;gt;
+    &amp;lt;XmlConnectionDataSource&amp;gt;
+      &amp;lt;ID&amp;gt;de806413-13d7-463a-820e-d27b5b2b78e1&amp;lt;/ID&amp;gt;
+      &amp;lt;TwoFactorInfo&amp;gt;
+        &amp;lt;Id&amp;gt;2aff3c54-ddb9-41a2-a350-54e5fa337dd5&amp;lt;/Id&amp;gt;
+      &amp;lt;/TwoFactorInfo&amp;gt;
+      &amp;lt;HasPromptedForMasterKey&amp;gt;true&amp;lt;/HasPromptedForMasterKey&amp;gt;
+      &amp;lt;Name&amp;gt;Local workspace&amp;lt;/Name&amp;gt;
+      &amp;lt;AutoRefresh&amp;gt;false&amp;lt;/AutoRefresh&amp;gt;
+      &amp;lt;FileName&amp;gt;Connections.xml&amp;lt;/FileName&amp;gt;
+      &amp;lt;FullFileName&amp;gt;/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/UserFiles/Connections.xml&amp;lt;/FullFileName&amp;gt;
+      &amp;lt;PromptForFile&amp;gt;false&amp;lt;/PromptForFile&amp;gt;
+    &amp;lt;/XmlConnectionDataSource&amp;gt;
+  &amp;lt;/DataSources&amp;gt;
+&amp;lt;/DataSourceExporter&amp;gt;</string>
+	<key>net.devolutions.remotedesktopmanager.DataSource3</key>
+	<string>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&amp;lt;DataSourceExporter&amp;gt;
+  &amp;lt;DataSources&amp;gt;
+    &amp;lt;XmlConnectionDataSource&amp;gt;
+      &amp;lt;ID&amp;gt;67f9f347-2b3f-4d90-bd54-137e16cbbb5b&amp;lt;/ID&amp;gt;
+      &amp;lt;TwoFactorInfo&amp;gt;
+        &amp;lt;Id&amp;gt;ee56193a-0aca-432c-b0a4-aee68e1bb054&amp;lt;/Id&amp;gt;
+      &amp;lt;/TwoFactorInfo&amp;gt;
+      &amp;lt;HasPromptedForMasterKey&amp;gt;true&amp;lt;/HasPromptedForMasterKey&amp;gt;
+      &amp;lt;Name&amp;gt;Local workspace&amp;lt;/Name&amp;gt;
+      &amp;lt;AutoRefresh&amp;gt;false&amp;lt;/AutoRefresh&amp;gt;
+      &amp;lt;FileName&amp;gt;Connections.xml&amp;lt;/FileName&amp;gt;
+      &amp;lt;FullFileName&amp;gt;/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/UserFiles/Connections.xml&amp;lt;/FullFileName&amp;gt;
+      &amp;lt;PromptForFile&amp;gt;false&amp;lt;/PromptForFile&amp;gt;
+    &amp;lt;/XmlConnectionDataSource&amp;gt;
+  &amp;lt;/DataSources&amp;gt;
+&amp;lt;/DataSourceExporter&amp;gt;</string>
+	<key>net.devolutions.remotedesktopmanager.DataSource4</key>
+	<string>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&amp;lt;DataSourceExporter&amp;gt;
+  &amp;lt;DataSources&amp;gt;
+    &amp;lt;XmlConnectionDataSource&amp;gt;
+      &amp;lt;ID&amp;gt;16a5c096-abe0-4680-a8d5-23b0cc49cf5f&amp;lt;/ID&amp;gt;
+      &amp;lt;TwoFactorInfo&amp;gt;
+        &amp;lt;Id&amp;gt;9e2adc66-c276-4fea-a055-6c2bc7e19cf8&amp;lt;/Id&amp;gt;
+      &amp;lt;/TwoFactorInfo&amp;gt;
+      &amp;lt;HasPromptedForMasterKey&amp;gt;true&amp;lt;/HasPromptedForMasterKey&amp;gt;
+      &amp;lt;Name&amp;gt;Local workspace&amp;lt;/Name&amp;gt;
+      &amp;lt;AutoRefresh&amp;gt;false&amp;lt;/AutoRefresh&amp;gt;
+      &amp;lt;FileName&amp;gt;Connections.xml&amp;lt;/FileName&amp;gt;
+      &amp;lt;FullFileName&amp;gt;/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/UserFiles/Connections.xml&amp;lt;/FullFileName&amp;gt;
+      &amp;lt;PromptForFile&amp;gt;false&amp;lt;/PromptForFile&amp;gt;
+    &amp;lt;/XmlConnectionDataSource&amp;gt;
+  &amp;lt;/DataSources&amp;gt;
+&amp;lt;/DataSourceExporter&amp;gt;</string>
+	<key>net.devolutions.remotedesktopmanager.DataSource5</key>
+	<string>&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&amp;lt;DataSourceExporter&amp;gt;
+  &amp;lt;DataSources&amp;gt;
+    &amp;lt;RDMSConnectionDataSource&amp;gt;
+      &amp;lt;DBID&amp;gt;7b35ec6c-cf43-49e0-be53-7caf9d536e00&amp;lt;/DBID&amp;gt;
+      &amp;lt;ID&amp;gt;d154eb86-e496-4e29-970d-33651f0d0219&amp;lt;/ID&amp;gt;
+      &amp;lt;TwoFactorInfo&amp;gt;
+        &amp;lt;Id&amp;gt;9d47ee6a-1a4b-40e5-94e6-b148c5cfeae7&amp;lt;/Id&amp;gt;
+      &amp;lt;/TwoFactorInfo&amp;gt;
+      &amp;lt;Name&amp;gt;WebDEV&amp;lt;/Name&amp;gt;
+      &amp;lt;Server&amp;gt;http://192.168.8.253&amp;lt;/Server&amp;gt;
+      &amp;lt;UserName&amp;gt;iCON INT&amp;lt;/UserName&amp;gt;
+    &amp;lt;/RDMSConnectionDataSource&amp;gt;
+  &amp;lt;/DataSources&amp;gt;
+&amp;lt;/DataSourceExporter&amp;gt;</string>
+	<key>net.devolutions.remotedesktopmanager.DefaultSectionAtStartup</key>
+	<string>Connection</string>
+	<key>net.devolutions.remotedesktopmanager.DisableBreadcrumb</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.DisableKeyboardInput</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.DisableKeypadMode</key>
+	<string>False</string>
+	<key>net.devolutions.remotedesktopmanager.DisableResilientDatabaseConnectionHandling</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.DisableTelemetry</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.DisableTimedCaches</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.EnableMetalRenderer</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.EnableRDPHorizontalScrolling</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.EnableRDPLogging</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.EnableReconnectAfterDeviceSleepRDP</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.EntryTouchAction</key>
+	<string>None</string>
+	<key>net.devolutions.remotedesktopmanager.ErrorDisplayMode</key>
+	<string>True</string>
+	<key>net.devolutions.remotedesktopmanager.FreeRDPCodecLevel</key>
+	<string>Level8</string>
+	<key>net.devolutions.remotedesktopmanager.HideArchivedEntries</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.HideDisabledEntries</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.HideExpiredEntries</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.HideRepositorySelector</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.IgnoreApplicationCertificateErrors</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.KeeperVaultCacheMode</key>
+	<string>Disabled</string>
+	<key>net.devolutions.remotedesktopmanager.KeyPadMode</key>
+	<string>Disable</string>
+	<key>net.devolutions.remotedesktopmanager.KeyboardReturnMode</key>
+	<string>FocusNextField</string>
+	<key>net.devolutions.remotedesktopmanager.LockOnIdle</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.LockOnIdleTime</key>
+	<integer>300</integer>
+	<key>net.devolutions.remotedesktopmanager.LongPressDelay</key>
+	<integer>500</integer>
+	<key>net.devolutions.remotedesktopmanager.MouseAccelerationSpeed</key>
+	<integer>60</integer>
+	<key>net.devolutions.remotedesktopmanager.MultiThreadLoading</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.MultiThreadOfflineFile</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.NoInternetConnection</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.OfflineEngineType</key>
+	<string>Default</string>
+	<key>net.devolutions.remotedesktopmanager.OpenDvlsAuthenticationInExternalBrowser</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.OverrideFont</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.OverrideLanguage</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.OverrideRDPCustomHeight</key>
+	<integer>0</integer>
+	<key>net.devolutions.remotedesktopmanager.OverrideRDPCustomWidth</key>
+	<integer>0</integer>
+	<key>net.devolutions.remotedesktopmanager.OverrideRDPRemoteDesktopSize</key>
+	<string>Default</string>
+	<key>net.devolutions.remotedesktopmanager.OverrideRDPScreenSize</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.OverrideTerminalName</key>
+	<string></string>
+	<key>net.devolutions.remotedesktopmanager.RDPAcknowledgementTimeout</key>
+	<integer>9000</integer>
+	<key>net.devolutions.remotedesktopmanager.RDPAuthenticationLevel</key>
+	<string>ConnectDontWarnMe</string>
+	<key>net.devolutions.remotedesktopmanager.RDPAuthenticationPackage</key>
+	<string>Negotiate</string>
+	<key>net.devolutions.remotedesktopmanager.RDPAutoScaleFactorEnabled</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.RDPClientName</key>
+	<string>apple wallet</string>
+	<key>net.devolutions.remotedesktopmanager.RDPLogOffMacroType</key>
+	<string>Default</string>
+	<key>net.devolutions.remotedesktopmanager.RDPLogOffWhenDisconnecting</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.RDPRemapGraveAccentToEscape</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.RDPScaleFactorEnabled</key>
+	<string>SF100</string>
+	<key>net.devolutions.remotedesktopmanager.RDPShowDisconnectedFromRemoteHostPopup</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.RDPSspiModuleType</key>
+	<string>Portable</string>
+	<key>net.devolutions.remotedesktopmanager.RDPToolbarDraggableMode</key>
+	<string>Free_Sticky</string>
+	<key>net.devolutions.remotedesktopmanager.RDPToolbarOrientation</key>
+	<string>Horizontal</string>
+	<key>net.devolutions.remotedesktopmanager.RDPUseMinimalistToolbar</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.ReOpenLastDatasource</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.RemoteDesktopDefaultLandscape</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.ResetScrollOnDisplay</key>
+	<string>True</string>
+	<key>net.devolutions.remotedesktopmanager.SSHBackgroundColor</key>
+	<string>#000000</string>
+	<key>net.devolutions.remotedesktopmanager.SSHFontSize</key>
+	<integer>10</integer>
+	<key>net.devolutions.remotedesktopmanager.SSHForegroundColor</key>
+	<string>#ffffff</string>
+	<key>net.devolutions.remotedesktopmanager.SSHRemapGraveAccentToEscape</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.SaveMaskPasswordValueInViewPasswordWindow</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.SecretServerVersion</key>
+	<string>Default</string>
+	<key>net.devolutions.remotedesktopmanager.SessionPointerSizeMode</key>
+	<string>DontResize</string>
+	<key>net.devolutions.remotedesktopmanager.ShowDeprecatedDataSource</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.ShowDeprecatedEntry</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.StatusBarSessions</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.TelnetRemapGraveAccentToEscape</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.TelnetTerminalBackgroundColor</key>
+	<string>#000000</string>
+	<key>net.devolutions.remotedesktopmanager.TelnetTerminalForegroundColor</key>
+	<string>#ffffff</string>
+	<key>net.devolutions.remotedesktopmanager.TouchPadMode</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.UseMouseAcceleration</key>
+	<true/>
+	<key>net.devolutions.remotedesktopmanager.VNCDisableCursorUpdates</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.VNCRemapGraveAccentToEscape</key>
+	<false/>
+	<key>net.devolutions.remotedesktopmanager.ViewSessionMode</key>
+	<string>Default</string>
+	<key>net.devolutions.remotedesktopmanager.WakeOnLanBroadcastIpAddress</key>
+	<string>192.168.0.100</string>
+	<key>net.devolutions.remotedesktopmanager.WakeOnLanPort</key>
+	<integer>8989</integer>
+</dict>
+</plist>

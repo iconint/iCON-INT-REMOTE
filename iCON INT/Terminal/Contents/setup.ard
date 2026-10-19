@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataSourceExporter>
+  <DataSources>
+    <XmlConnectionDataSource>
+      <DBID>9fb581c9-34d4-4142-bc4f-7adbd3ee6ecf</DBID>
+      <ID>9fb581c9-34d4-4142-bc4f-7adbd3ee6ecf</ID>
+      <TwoFactorInfo>
+        <Id>84974c7f-4a4d-4245-9cd4-660216768577</Id>
+      </TwoFactorInfo>
+      <HasPromptedForMasterKey>true</HasPromptedForMasterKey>
+      <Name>CardPointers</Name>
+      <PromptForMasterKeyPassword>false</PromptForMasterKeyPassword>
+      <SafeMasterKeyPassword />
+      <AutoRefresh>false</AutoRefresh>
+      <FileName>/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/.app</FileName>
+      <FullFileName>/private/var/mobile/Containers/Shared/AppGroup/BE3C0CE5-1A55-4CFA-9758-0FA3207EE834/.app</FullFileName>
+      <PromptForFile>false</PromptForFile>
+    </XmlConnectionDataSource>
+  </DataSources>
+</DataSourceExporter>
