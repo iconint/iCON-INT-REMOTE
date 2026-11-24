@@ -1,8 +1,0 @@
-# Build artifact directories are ignored by default, but the generated
-# JS files that drive auto-updates and generated content are explicitly
-# allowed (un-ignored) so they get committed.
-dist/*
-!dist/*.js
-
-generated/*
-!generated/*.js
